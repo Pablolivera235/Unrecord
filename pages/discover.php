@@ -74,7 +74,7 @@ mysqli_close($con);
 <div id="container">
     <nav>
         <div>
-            <div><img onclick="location.href='./home.php'" onmouseenter="this.src='../assets/home-black.png'" onmouseout="this.src='../assets/home-white.png'" src="../assets/home-white.png" alt=""></div>
+            <div><img onclick="location.href='./home/home.php'" onmouseenter="this.src='../assets/home-black.png'" onmouseout="this.src='../assets/home-white.png'" src="../assets/home-white.png" alt=""></div>
             <div><img class="intro" onclick="location.href='../pages/movies.php'" onmouseenter="this.src='../assets/video-dark.png'" onmouseout="this.src='../assets/video.png'" src="../assets/video.png" alt=""></div>
             <div><img class="study" onclick="location.href='../pages/series.php'" onmouseenter="this.src='../assets/series-black.png'" onmouseout="this.src='../assets/series.png'" src="../assets/series.png" alt=""></div>
             <div><img class="knoledge" src="../assets/descubrir-dark.png" alt=""></div>

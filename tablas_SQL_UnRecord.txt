@@ -1,0 +1,14 @@
+CREATE TABLE series (
+  id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  nombre VARCHAR(100) NOT NULL,
+  descripcion VARCHAR(500)
+);
+CREATE TABLE capitulos (
+  id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  nombre_id INT NOT NULL,
+  temporada VARCHAR(4) NOT NULL,
+  nombre VARCHAR(90),
+  info VARCHAR(500),
+  caratula VARCHAR(150),
+  CONSTRAINT fk_series_nombre FOREIGN KEY (nombre_id) REFERENCES series(id)
+);

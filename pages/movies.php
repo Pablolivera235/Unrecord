@@ -318,7 +318,7 @@ function ver_eps(){
 
     <nav>
         <div>
-        <div><img onclick="location.href='./home.php'" onmouseenter="this.src='../assets/home-black.png'" onmouseout="this.src='../assets/home-white.png'"src="../assets/home-white.png" alt=""></div>
+        <div><img onclick="location.href='./home/home.php'" onmouseenter="this.src='../assets/home-black.png'" onmouseout="this.src='../assets/home-white.png'"src="../assets/home-white.png" alt=""></div>
         <div><img class="intro" src="../assets/video-dark.png" alt=""></div>
         <div><img class="study"  onclick="location.href='../pages/series.php'" onmouseenter="this.src='../assets/series-black.png'" onmouseout="this.src='../assets/series.png'"src="../assets/series.png" alt=""></div>
         <div><img class="knoledge"  onclick="location.href='../pages/discover.php'" onmouseenter="this.src='../assets/descubrir-dark.png'" onmouseout="this.src='../assets/Descubrir.png'"src="../assets/Descubrir.png" alt=""></div>
@@ -362,6 +362,15 @@ function ver_eps(){
         </div>
         <div id='post_container'>
           <img class="post_photo" id='post_naked_gun' name="Naked Gun" onmouseenter="welc_port('../assets/portadas/naked_gun_portada.jpg', '../assets/portadas/.webp')" onmouseout="welc_back_up()" onclick="abrir_peli('../movies/nakedgun.mp4')" src='../assets/posters/naked_gun_poster.jpg' alt='Imagen del post'>
+        </div>
+        <div id='post_container'>
+          <img class="post_photo" id='post_nok' name="Paranormal Activity 6" onmouseenter="welc_port('../assets/portadas/naked_gun_portada.jpg', '../assets/portadas/.webp')" onmouseout="welc_back_up()" onclick="abrir_peli('../movies/nok.mp4')" src='../assets/posters/nok_poster.jpg' alt='Imagen del post'>
+        </div>
+        <div id='post_container'>
+          <img class="post_photo" id='post_markedones' name="Paranormal Activity 4" onmouseenter="welc_port('../assets/portadas/naked_gun_portada.jpg', '../assets/portadas/.webp')" onmouseout="welc_back_up()" onclick="abrir_peli('../movies/markedones.mkv')" src='../assets/posters/markedones_poster.webp' alt='Imagen del post'>
+        </div>
+        <div id='post_container'>
+          <img class="post_photo" id='post_dim_desc' name="Paranormal Activity 3" onmouseenter="welc_port('../assets/portadas/naked_gun_portada.jpg', '../assets/portadas/.webp')" onmouseout="welc_back_up()" onclick="abrir_peli('../movies/dim_desc.mp4')" src='../assets/posters/dimension_desc_poster.jpg' alt='Imagen del post'>
         </div>
 </div>
 

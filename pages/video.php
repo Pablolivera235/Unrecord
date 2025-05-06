@@ -256,6 +256,24 @@ function adelantar30s() {
             };
         }
 
+
+
+        async function lockOrientation() {
+  if (screen.orientation) {
+    try {
+      await screen.orientation.lock("landscape");
+    } catch (error) {
+      console.error("No se pudo bloquear la orientación:", error);
+    }
+  }
+}
+
+// Intentar bloquear la orientación cuando la página cargue
+document.addEventListener("DOMContentLoaded", () => {
+  lockOrientation();
+});
+
+
     </script>
 
     <style>
